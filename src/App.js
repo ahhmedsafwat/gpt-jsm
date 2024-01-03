@@ -1,7 +1,7 @@
 import {
   Footer,
   Blog,
-  Feature,
+  Features,
   Header,
   Possibility,
   WhatGPT3,
@@ -17,7 +17,7 @@ function App() {
       </div>
       <Brand />
       <WhatGPT3 />
-      <Feature />
+      <Features />
       <Possibility />
       <CTA />
       <Blog />

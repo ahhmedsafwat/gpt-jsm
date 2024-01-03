@@ -1,7 +1,7 @@
 .gpt3__features-container__feature {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: flex-start;
   margin: 1rem;
 }
@@ -24,9 +24,11 @@
   background: linear-gradient(103deg, #ae67fa -13.86%, #f49867 99.55%), #fff;
   margin-bottom: 0.25rem;
 }
-.gpt3__features-container_feature-text {
+.gpt3__features-container__feature-text:not(:first-child) {
+  max-width: 390px;
+}
+.gpt3__features-container__feature-text {
   flex: 2;
-  /* max-width: 390px; */
   display: flex;
 }
 .gpt3__features-container__feature-text p {
